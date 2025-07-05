@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import PayForm from '../../components/PayForm'
+import PayForm from '@/components/PayForm'
 
 type Params = { params: { slug: string } }
 
